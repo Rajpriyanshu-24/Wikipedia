@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Clone - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        *{
+            background-color: rgb(18, 17, 17);
+            color: azure;
+        }
+        .navbar {
+    background-color: #0044cc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+        
+
+.navbar .logo {
+    font-size: 1.8rem;
+    background-color: black;
+    color: rgb(245, 17, 17):aquamarine
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="index.html" class="logo">Wikipedia</a>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="index2.html">About</a></li>
+                <li><a href="index3.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out to us:</p>
+        <form action="#" method="post">
+            <table>
+                <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+            <td><label for="message">Message:</label></td>
+            <td><textarea id="message" name="message" rows="4" required></textarea></td>
+            <tr>
+            <td><button type="submit">Send</button></td>
+            </tr>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Wikipedia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
